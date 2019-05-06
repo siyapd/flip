@@ -24,9 +24,8 @@ public class landing extends base{
 	@Test
 	public static void getdata() throws IOException, InterruptedException
 	{
-		driver=invoke();
-		//log.info("browser invoke");
-	//	log.info("invoked");
+		driver=invoke();//changes
+	
 		objects o= new objects(driver);
 		
 		o.close().click();
